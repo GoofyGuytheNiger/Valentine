@@ -6,6 +6,8 @@ let clickCount = 0;
 
 function handleYesClick() {
     a[0].textContent = "YAAAAYYYYY!!!! ILYSM KIRAA❤️😭😭";
+    yes[0].parentNode.remove();
+    no[0].parentNode.remove();
 }
 
 function handleNoClick() {
