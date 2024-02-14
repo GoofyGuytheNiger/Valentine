@@ -58,7 +58,7 @@ body
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 50px;
 }
 .ans_yes
 {
@@ -72,11 +72,7 @@ body
     font-family: "Century Gothic";
     border-radius: 56px;
     font-weight: 600;
-    position: absolute;
-    bottom: 393px;
     box-shadow: 0px 0px 15px 0px;
-    right: 350px;
-    left: 55px;
     transition: 0.025s ease;
 }
 .ans_no
@@ -91,11 +87,7 @@ body
     font-family: "Century Gothic";
     border-radius: 56px;
     font-weight: 600;
-    position: absolute;
-    bottom: 213px;
     box-shadow: 0px 0px 15px 2px black;
-    right: 350px;
-    left: 55px;
     transition: 0.025s ease;
 }
 .ans_no:active
@@ -109,4 +101,8 @@ body
     background-color: rgb(7, 85, 10);
     box-shadow: white;
     color: white;
+}
+.no
+{
+    padding-top: 60px;
 }
